@@ -14,12 +14,14 @@ public class EvenOdd {
 		 
 		 
 		 scanner.close();
+		 System.out.println("El numero es par?" + (numero % 2 == 0));
+		 
 		
-		if(numero%2 == 0){
+		/*if(numero%2 == 0){
 			System.out.println("TRUE");
 		}else {
 			System.out.println("FALSE");
-		}
+		}*/
 		
 	}
 	

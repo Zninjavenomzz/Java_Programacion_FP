@@ -11,8 +11,8 @@ public class Facturas {
 		
 		
 		
-		System.out.println("Inserte el precio del producto sin IVA: ");
-		float base= scanner.nextFloat();
+		System.out.print("Inserte el precio del producto sin IVA: ");
+		double base= scanner.nextDouble();
 		
 		System.out.print("El precio del producto tras añadir el IVA es de: ");
 		System.out.print(base+(base*IVA));
