@@ -19,38 +19,26 @@ public class LapizApp {
 		
 		
 		Lapiz lapiz1 = new Lapiz();
-		Lapiz lapiz2 = new Lapiz();
-		Lapiz lapiz3 = new Lapiz();
-		Lapiz lapiz4 = new Lapiz();
 		
-		//Giramos el lapiz hacia abajo lo bajamos y lo movemos 20 puntos
 		
 		lapiz1.gira(270);
 		lapiz1.baja();
 		lapiz1.desplaza(20);
 		
-		double trazo1 = lapiz1.getTrazo();
+		Linea trazo1 = lapiz1.getTrazo(1);
+					
+		
+		lapiz1.gira(90);
+		lapiz1.desplaza(20);
+		
+		
+		lapiz1.gira(90);
+		lapiz1.desplaza(20);
+	
+		
+		lapiz1.gira(90);
+		lapiz1.desplaza(20);
 				
-		//Giramos el hacia la derecha  y lo movemos 20 puntos
-		
-		lapiz2.gira(90);
-		lapiz2.desplaza(20);
-		
-		//Giramos el hacia la arriba  y lo movemos 20 puntos
-		
-		lapiz3.gira(90);
-		lapiz3.desplaza(20);
-		
-		//Giramos el hacia la izquierda  y lo movemos 20 puntos
-		
-		lapiz4.gira(90);
-		lapiz4.desplaza(20);
-		
-		
-		
-		
-		
-		
 		System.out.println("El dibujo del trazo es " + trazo1);				
 		
 		
