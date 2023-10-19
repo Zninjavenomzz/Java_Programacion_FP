@@ -24,27 +24,10 @@ public class NumerosComplejos {
 		Complejo dividir =  numero1.dividir(numero2);
 		Complejo multiplicar =  numero1.multiplicar(numero2);
 		
-		
-		double partereal = sumar.getParteReal();
-		double parteimaginaria = sumar.getParteImaginaria();
-
-		System.out.println("La suma de los dos numeros es " + partereal + " + "+ parteimaginaria + "i");
-		
-		partereal = resta.getParteReal();
-		parteimaginaria = resta.getParteImaginaria();
-
-		System.out.println("La suma de los dos numeros es " + partereal + " + "+ parteimaginaria + "i");
-		
-		partereal = dividir.getParteReal();
-		parteimaginaria = dividir.getParteImaginaria();
-		
-		System.out.println("La suma de los dos numeros es " + partereal + " + "+ parteimaginaria + "i");
-		
-		partereal = multiplicar.getParteReal();
-		parteimaginaria = multiplicar.getParteImaginaria();		
-		
-		System.out.println("La suma de los dos numeros es " + partereal + " + "+ parteimaginaria + "i");
-		
+		System.out.println("La suma de los dos numeros es " + sumar.getParteReal() + " + " + sumar.getParteImaginaria() + "i");
+		System.out.println("La resta de los dos numeros es " + resta.getParteReal() + resta.getParteImaginaria() + "i");
+		System.out.println("La division de los dos numeros es " + dividir.getParteReal() + dividir.getParteImaginaria() + "i");
+		System.out.println("el producto de los dos numeros es " + multiplicar.getParteReal() + multiplicar.getParteImaginaria() + "i");
 		
 		scan.close();
 			

@@ -4,7 +4,7 @@ public class ContadorObjetos {
 
 	public static void main(String[] args) {
 		
-		GranHermano hermano1 = new GranHermano(12);
+		GranHermano hermano1= new GranHermano(12);
 		GranHermano hermano2 = new GranHermano(12);
 		GranHermano hermano3 = new GranHermano(12);
 		GranHermano hermano4 = new GranHermano(12);
